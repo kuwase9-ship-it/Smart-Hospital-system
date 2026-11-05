@@ -1,4 +1,5 @@
 package org.example;
 
-public class NotificationService {
+public interface NotificationService {
+    void sendNotification(String patientId, String message);
 }
